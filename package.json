@@ -1,0 +1,17 @@
+{
+  "name": "josef-laumen-website",
+  "version": "2.0.0",
+  "description": "Website für Josef Laumen – Unternehmensberatung & Interim Management",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "Projektmanagement",
+    "Unternehmensberatung",
+    "Interim Management",
+    "KI",
+    "Führung"
+  ],
+  "author": "Josef Laumen"
+}

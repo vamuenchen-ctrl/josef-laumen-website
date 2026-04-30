@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datenschutzerklärung von Josef Laumen">
     <title>Datenschutz | Josef Laumen</title>
+    <link rel="canonical" href="https://josef-laumen-website.vercel.app/datenschutz/">
     <link rel="stylesheet" href="../styles/main.css">
     <style>
-        .legal-section { padding: 3rem 0; }
-        .legal-section h1 { font-size: 2rem; margin-bottom: 2rem; }
-        .legal-section h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; }
-        .legal-section p { margin-bottom: 1rem; line-height: 1.8; }
+        .legal-section { padding: var(--spacing-xl) 0; }
+        .legal-section h1 { font-size: 2.2rem; margin-bottom: var(--spacing-lg); color: var(--dark-color); font-weight: 700; }
+        .legal-section h2 { font-size: 1.5rem; margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md); color: var(--dark-color); font-weight: 700; }
+        .legal-section p { margin-bottom: var(--spacing-md); line-height: 1.8; }
+        .legal-section strong { color: var(--dark-color); font-weight: 700; }
+        .legal-section ul { margin-left: var(--spacing-lg); margin-bottom: var(--spacing-md); }
+        .legal-section li { margin-bottom: 0.5rem; }
     </style>
 </head>
 <body>
-    <nav class="navbar">
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
         <div class="nav-container">
             <a href="/" class="nav-logo">Josef Laumen</a>
             <ul class="nav-menu">
@@ -23,26 +30,92 @@
         </div>
     </nav>
 
-    <section class="legal-section">
-        <div class="container">
-            <h1>Datenschutzerklärung</h1>
-            <h2>1. Datenschutz auf einen Blick</h2>
-            <p>Die nachfolgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert.</p>
-            <h2>2. Kontaktformular</h2>
-            <p>Personenbezogene Daten aus dem Kontaktformular werden erhoben und verarbeitet, um Ihre Anfrage zu bearbeiten.</p>
-            <h2>3. Ihre Rechte</h2>
-            <p>Sie haben das Recht, Auskunft über Ihre Daten zu erhalten und diese zu korrigieren oder zu löschen.</p>
-            <p><em>Hinweis: Bitte ergänzen Sie eine vollständige, GDPR-konforme Datenschutzerklärung vor dem Go-Live.</em></p>
-        </div>
-    </section>
+    <main id="main-content">
+        <section class="legal-section">
+            <div class="container">
+                <h1>Datenschutzerklärung</h1>
 
-    <footer class="footer">
+                <h2>1. Datenschutz auf einen Blick</h2>
+                <p>
+                    Diese Datenschutzerklärung gibt einen Überblick darüber, wie wir Ihre personenbezogenen Daten 
+                    verarbeiten und welche Rechte Sie in Bezug auf Ihre Daten haben.
+                </p>
+
+                <h2>2. Verantwortlicher</h2>
+                <p>
+                    <strong>Josef Laumen</strong><br>
+                    [Ihre Adresse]<br>
+                    [Ihre E-Mail]<br>
+                    [Ihre Telefonnummer]
+                </p>
+
+                <h2>3. Erhobene Daten</h2>
+                <p>Wir erheben personenbezogene Daten, die Sie uns freiwillig mitteilen, insbesondere:</p>
+                <ul>
+                    <li>Name</li>
+                    <li>E-Mail-Adresse</li>
+                    <li>Telefonnummer (optional)</li>
+                    <li>Nachricht/Anfrageinhalte</li>
+                </ul>
+
+                <h2>4. Zweck der Datenverarbeitung</h2>
+                <p>
+                    Ihre Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage und zur personalisierten Beratung 
+                    verwendet. Wir werden Ihre Daten nicht an Dritte weitergeben, es sei denn, dies ist gesetzlich 
+                    erforderlich.
+                </p>
+
+                <h2>5. Rechtsgrundlage</h2>
+                <p>
+                    Die Verarbeitung Ihrer Daten erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO.
+                </p>
+
+                <h2>6. Dauer der Speicherung</h2>
+                <p>
+                    Ihre Daten werden so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage erforderlich ist, 
+                    mindestens jedoch gemäß gesetzlicher Aufbewahrungsfristen.
+                </p>
+
+                <h2>7. Ihre Rechte</h2>
+                <p>Sie haben das Recht:</p>
+                <ul>
+                    <li>Auskunft über Ihre gespeicherten Daten zu erhalten</li>
+                    <li>Unrichtige Daten zu korrigieren</li>
+                    <li>Daten löschen zu lassen (Recht auf Vergessenwerden)</li>
+                    <li>Die Verarbeitung einzuschränken</li>
+                    <li>Widerspruch gegen die Verarbeitung einzulegen</li>
+                    <li>Datenportabilität zu fordern</li>
+                </ul>
+
+                <h2>8. Widerrufsrecht</h2>
+                <p>
+                    Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Dies können Sie 
+                    postalisch oder per E-Mail unter info@josef-laumen.de tun.
+                </p>
+
+                <h2>9. Kontakt</h2>
+                <p>
+                    Für Fragen zum Datenschutz oder zur Geltendmachung Ihrer Rechte kontaktieren Sie uns unter:<br>
+                    <strong>E-Mail:</strong> <a href="mailto:info@josef-laumen.de">info@josef-laumen.de</a>
+                </p>
+
+                <p style="margin-top: var(--spacing-xl); font-style: italic; color: var(--text-light);">
+                    <strong>Hinweis:</strong> Diese Datenschutzerklärung ist ein Template. Bitte passen Sie diese 
+                    an Ihre spezifischen Anforderungen an und lassen Sie diese ggf. von einem Datenschutzbeauftragten 
+                    überprüfen, bevor Sie die Website veröffentlichen.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <a href="/impressum/">Impressum</a>
                 <a href="/datenschutz/">Datenschutz</a>
-                <a href="#">Cookie-Einstellungen</a>
+                <a href="#" class="cookie-settings">Cookie-Einstellungen</a>
             </div>
+            <p class="footer-copyright">&copy; 2026 Josef Laumen. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 </body>

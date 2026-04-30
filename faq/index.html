@@ -3,55 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ | Josef Laumen</title>
+    <meta name="description" content="Häufig gestellte Fragen zu Josef Laumen – Unternehmensberatung, Projektmanagement und KI-Expertise.">
+    <meta name="keywords" content="FAQ, Fragen, Antworten, Projektmanagement, Unternehmensberatung">
+    <meta property="og:title" content="FAQ | Josef Laumen">
+    <meta property="og:description" content="Häufig gestellte Fragen zu Josef Laumen und seinen Leistungen.">
+    <title>FAQ | Josef Laumen – Unternehmensberatung & Interim Management</title>
+    <link rel="canonical" href="https://josef-laumen-website.vercel.app/faq/">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/faq.css">
 </head>
 <body>
-    <nav class="navbar">
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
         <div class="nav-container">
             <a href="/" class="nav-logo">Josef Laumen</a>
             <ul class="nav-menu">
                 <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/faq/" class="nav-link active">FAQ</a></li>
+                <li><a href="/faq/" class="nav-link active" aria-current="page">FAQ</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="faq-header">
-        <div class="container">
-            <h1>FAQ – Josef Laumen</h1>
-            <p class="faq-subtitle">Programm-Management, Business Analyse und KI-Projektmanagement</p>
-        </div>
-    </section>
-
-    <section class="faq-section">
-        <div class="container">
-            <div class="faq-list">
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Wer ist Josef Laumen?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Was sind die Kernkompetenzen von Josef Laumen?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Für welche Projekte ist Josef Laumen der richtige Ansprechpartner?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Welche Branchen kennt Josef Laumen aus eigener Erfahrung?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Welche Erfahrung hat Josef Laumen mit agilen Methoden?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Welche Erfahrung hat Josef Laumen mit DSGVO und Data Governance?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Welche KI-Expertise hat Josef Laumen?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Wie setzt Josef Laumen KI im Projektmanagement ein?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Wo ist Josef Laumen tätig und wie kann man ihn beauftragen?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
-                <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)"><span>Welche Tools und Methoden nutzt Josef Laumen?</span><span class="faq-icon">+</span></button><div class="faq-answer"><p>Antwort folgt in Kürze...</p></div></div>
+    <main id="main-content">
+        <section class="faq-header" aria-labelledby="faq-title">
+            <div class="container">
+                <h1 id="faq-title">Häufig gestellte Fragen</h1>
+                <p class="faq-subtitle">Programm-Management, Business Analyse und KI-Projektmanagement</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="footer">
+        <section class="faq-section" aria-labelledby="faq-list-title">
+            <div class="container">
+                <h2 id="faq-list-title" class="sr-only">FAQ-Liste</h2>
+                <div class="faq-list" role="region" aria-label="Häufig gestellte Fragen">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Wer ist Josef Laumen?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen ist ein erfahrener Unternehmensberater und Interim Manager mit über 20 Jahren Erfahrung in Projektmanagement, IT-Führung und Unternehmensberatung. Er spezialisiert sich auf komplexe Transformationsprojekte, Multiprojektmanagement und den strategischen Einsatz von generativer KI.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Was sind die Kernkompetenzen von Josef Laumen?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Seine Kernkompetenzen umfassen:</p>
+                            <ul>
+                                <li>Programm- und Projektmanagement</li>
+                                <li>Projektportfolio- und Multiprojektmanagement</li>
+                                <li>Fachliche und disziplinarische Führung</li>
+                                <li>Prozessoptimierung und Methodenentwicklung</li>
+                                <li>Anforderungsmanagement</li>
+                                <li>Generative KI im Projektmanagement</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Für welche Projekte ist Josef Laumen der richtige Ansprechpartner?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen ist ideal für:</p>
+                            <ul>
+                                <li>Komplexe IT-Transformationsprojekte</li>
+                                <li>Multiprojekt- und Programmmanagement</li>
+                                <li>Organisatorische Umstrukturierungen</li>
+                                <li>Einführung agiler Methoden</li>
+                                <li>KI-gestützte Prozessoptimierung</li>
+                                <li>Interim-Management-Positionen</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Welche Branchen kennt Josef Laumen aus eigener Erfahrung?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen hat umfangreiche Erfahrung in verschiedenen Branchen, darunter:</p>
+                            <ul>
+                                <li>Finanzdienstleistungen</li>
+                                <li>Versicherungen</li>
+                                <li>Telekommunikation</li>
+                                <li>Energiewirtschaft</li>
+                                <li>Öffentliche Verwaltung</li>
+                                <li>Fertigungsindustrie</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Welche Erfahrung hat Josef Laumen mit agilen Methoden?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen hat umfangreiche Erfahrung mit agilen Methoden und hat mehrere Organisationen erfolgreich bei der Einführung von Scrum, Kanban und anderen agilen Frameworks unterstützt. Er versteht sowohl die technischen als auch die organisatorischen Aspekte der agilen Transformation.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Welche Erfahrung hat Josef Laumen mit DSGVO und Data Governance?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen hat Erfahrung in der Implementierung von Datenschutz- und Data-Governance-Rahmenwerken. Er versteht die regulatorischen Anforderungen und kann Organisationen bei der Compliance-Umsetzung unterstützen.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Welche KI-Expertise hat Josef Laumen?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen verfügt über aktuelle Expertise in generativer KI und deren strategischem Einsatz im Projektmanagement. Er kombiniert langjährige IT-Führungserfahrung mit zukunftsorientierten Technologien und hilft Organisationen, KI-Chancen zu identifizieren und zu nutzen.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Wie setzt Josef Laumen KI im Projektmanagement ein?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen nutzt KI für:</p>
+                            <ul>
+                                <li>Automatisierte Risikoanalyse und Prognosen</li>
+                                <li>Ressourcenoptimierung</li>
+                                <li>Intelligente Dokumentation und Wissensmanagement</li>
+                                <li>Datengestützte Entscheidungsfindung</li>
+                                <li>Prozessautomation und Effizienzsteigerung</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Wo ist Josef Laumen tätig und wie kann man ihn beauftragen?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen ist deutschlandweit und international tätig. Sie können ihn über das Kontaktformular auf dieser Website oder über seine LinkedIn- und Xing-Profile kontaktieren. Er ist flexibel bei der Arbeitsweise (vor Ort, remote oder hybrid) und passt sich den Anforderungen des Projekts an.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                            <span>Welche Tools und Methoden nutzt Josef Laumen?</span>
+                            <span class="faq-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="faq-answer" role="region">
+                            <p>Josef Laumen arbeitet mit einer Vielzahl von Tools und Methoden, darunter:</p>
+                            <ul>
+                                <li>Klassische Projektmanagement-Tools (MS Project, Jira, Asana)</li>
+                                <li>Agile Frameworks (Scrum, Kanban, SAFe)</li>
+                                <li>Business-Analyse-Tools</li>
+                                <li>KI-gestützte Analyse- und Automatisierungstools</li>
+                                <li>Risikomanagement-Frameworks</li>
+                                <li>Stakeholder-Management-Ansätze</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <a href="/impressum/">Impressum</a>
                 <a href="/datenschutz/">Datenschutz</a>
-                <a href="#">Cookie-Einstellungen</a>
+                <a href="#" class="cookie-settings">Cookie-Einstellungen</a>
             </div>
+            <p class="footer-copyright">&copy; 2026 Josef Laumen. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    <script src="../scripts/faq.js"></script>
+    <link rel="stylesheet" href="../styles/faq.css">
+    <script src="../scripts/faq.js" defer></script>
 </body>
 </html>

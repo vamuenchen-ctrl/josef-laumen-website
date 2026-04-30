@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Impressum von Josef Laumen">
     <title>Impressum | Josef Laumen</title>
+    <link rel="canonical" href="https://josef-laumen-website.vercel.app/impressum/">
     <link rel="stylesheet" href="../styles/main.css">
     <style>
-        .legal-section { padding: 3rem 0; }
-        .legal-section h1 { font-size: 2rem; margin-bottom: 2rem; }
-        .legal-section p { margin-bottom: 1rem; line-height: 1.8; }
+        .legal-section { padding: var(--spacing-xl) 0; }
+        .legal-section h1 { font-size: 2.2rem; margin-bottom: var(--spacing-lg); color: var(--dark-color); font-weight: 700; }
+        .legal-section p { margin-bottom: var(--spacing-md); line-height: 1.8; }
+        .legal-section strong { color: var(--dark-color); font-weight: 700; }
     </style>
 </head>
 <body>
-    <nav class="navbar">
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
         <div class="nav-container">
             <a href="/" class="nav-logo">Josef Laumen</a>
             <ul class="nav-menu">
@@ -22,23 +27,71 @@
         </div>
     </nav>
 
-    <section class="legal-section">
-        <div class="container">
-            <h1>Impressum</h1>
-            <p><strong>Angaben gemäß § 5 TMG:</strong></p>
-            <p>Josef Laumen<br>[Adresse - bitte eintragen]<br>[PLZ Ort]</p>
-            <p><strong>Kontakt:</strong><br>E-Mail: info@josef-laumen.de</p>
-            <p><strong>Verantwortlich für den Inhalt:</strong><br>Josef Laumen</p>
-        </div>
-    </section>
+    <main id="main-content">
+        <section class="legal-section">
+            <div class="container">
+                <h1>Impressum</h1>
+                
+                <h2>Angaben gemäß § 5 TMG</h2>
+                <p>
+                    <strong>Josef Laumen</strong><br>
+                    [Ihre Straße und Hausnummer]<br>
+                    [Postleitzahl] [Stadt]<br>
+                    Deutschland
+                </p>
 
-    <footer class="footer">
+                <h2>Kontaktinformationen</h2>
+                <p>
+                    <strong>Telefon:</strong> [Ihre Telefonnummer]<br>
+                    <strong>E-Mail:</strong> <a href="mailto:info@josef-laumen.de">info@josef-laumen.de</a>
+                </p>
+
+                <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+                <p>Josef Laumen</p>
+
+                <h2>Haftungsausschluss</h2>
+                <p>
+                    Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit 
+                    und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir 
+                    gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. 
+                    Nach §§ 8 bis 10 des TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder 
+                    gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine 
+                    rechtswidrige Tätigkeit hinweisen.
+                </p>
+
+                <h2>Haftung für Links</h2>
+                <p>
+                    Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. 
+                    Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten 
+                    Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten 
+                    wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren 
+                    zum Zeitpunkt der Verlinkung nicht erkennbar.
+                </p>
+
+                <h2>Urheberrecht</h2>
+                <p>
+                    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen 
+                    Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der 
+                    Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des Autors oder Schöpfers. Downloads 
+                    und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+                </p>
+
+                <p style="margin-top: var(--spacing-xl); font-style: italic; color: var(--text-light);">
+                    <strong>Hinweis:</strong> Bitte vervollständigen Sie dieses Impressum mit Ihren persönlichen Daten, 
+                    bevor Sie die Website veröffentlichen.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <a href="/impressum/">Impressum</a>
                 <a href="/datenschutz/">Datenschutz</a>
-                <a href="#">Cookie-Einstellungen</a>
+                <a href="#" class="cookie-settings">Cookie-Einstellungen</a>
             </div>
+            <p class="footer-copyright">&copy; 2026 Josef Laumen. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 </body>
